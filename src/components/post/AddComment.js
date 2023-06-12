@@ -40,7 +40,7 @@ const Comment = ({ post }) => {
             onChange={getCommentText}
           />
           <button className="comment-button" type="button" onClick={addComment}>
-            Submit
+            Add
           </button>
         </div>
       </div>
